@@ -1,2 +1,1 @@
-class Example
-end
+require 'active_support/all'
