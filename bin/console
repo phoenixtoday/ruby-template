@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require 'pry'
+
+Dir.glob(File.expand_path("../../*.rb", __FILE__)).each do |file|
+  require file
+end
+Pry.start
